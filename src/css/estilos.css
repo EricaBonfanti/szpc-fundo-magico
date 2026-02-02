@@ -1,0 +1,118 @@
+body {
+  color: #ffffff;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg1.JPG);
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.4;
+  padding: 32px 24px;
+}
+
+.header {
+  margin-bottom: 48px;
+  z-index: 99;
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 16px;
+  font-size: 48px;
+}
+
+.header .subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 19px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  z-index: 99;
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 32px;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 20px;
+}
+
+.form-group textarea {
+  background-color: rgba(255, 255, 255, 0.051);
+  color: #ffffff;
+  width: 100%;
+  min-height: 120px;
+  padding: 16px;
+  border: 1px solid #ffffff52;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.form-group textarea:focus {
+  outline: none;
+  border-color: #ffffff;
+}
+
+.form-group textarea::placeholder {
+  color: #ffffff6f;
+}
+
+.form-group .btn-magic {
+    width: 100%;
+    padding: 16px 32px;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0.051) 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-group .btn-magic:hover {
+    transform: translateY(-2px);
+}
+
+.preview-card {
+    display: none;
+}
+
+.code-grid { 
+    display: flex;
+    gap: 24px;
+}
+
+.code-card {
+    background-color: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+    width: 50%;
+}
+
+.code-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.code-block {
+    background-color: #0a0c10;
+    color:  #77df3f;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 14px;
+
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+
